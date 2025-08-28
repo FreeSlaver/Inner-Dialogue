@@ -6,3 +6,19 @@ url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# _config.yml
+
+collections:
+  docs:
+    permalink: /docs/:path/
+    output: true
+
+just_the_docs:
+  collections:
+    # 启用刚刚定义的 "docs" 集合
+    docs:
+      name: Documentation # 在导航栏中显示的分组名称
+      nav: true # 至关重要！设为 true 以在主导航中显示此集合
+      nav_exclude: false # 可选，是否从导航中排除整个集合
+      nav_order: 2 # 可选，定义导航项的排序顺序
