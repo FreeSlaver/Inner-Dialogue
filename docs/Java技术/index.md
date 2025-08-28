@@ -1,5 +1,5 @@
 ---
 title: Java技术
 nav_order: 2
-permalink: /#
+permalink: /Java技术
 ---
